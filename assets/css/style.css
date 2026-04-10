@@ -51,6 +51,16 @@ body {
     background-color: white;
 } */
 
+.header-images {
+    background-color: var(--secondary-color);
+    
+
+}
+.header-images, img {
+    border-radius: 50px; 
+
+}
+
 
 /* Grid Visualisation to test the layout of the page*/
 
@@ -62,4 +72,14 @@ body {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
+}
+
+/* Media Queries */
+
+/* For screens 992px and larger (tablets) */
+@media screen and (min-width: 992px) {
+    
+    .header-images, img {
+        float: left;
+    }
 }
