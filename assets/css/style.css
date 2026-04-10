@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-/* CSS Variables */
+/* CSS Variables. These are consistent style options for the website */
 :root {
     --primary-font: "Elsie", sans-serif;
     --secondary-font: "Mali", cursive;
@@ -12,7 +12,7 @@
     --highlight-color-light: #edbbf0; /* light pink*/
 }
 
-/* Global Styles */
+/* Global Styles. These will be consistent for the entire website */
 body {
     font-family: var(--primary-font);
 }
@@ -28,7 +28,7 @@ h3 {
     color: var(--highlight-color);
 }
 
-/* Grid Visualisation */
+/* Grid Visualisation to test the layout of the page*/
 
 .container,
 .row {

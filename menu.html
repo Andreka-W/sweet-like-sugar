@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Sweet as Sugar café as the perfect to sit down, relax and enjoy the loveliest tea and coffee made by the loveliest staff."
+      content="Come and see out selection of drinks, food and cakes, where we are certain you will find something to your taste."
     />
-    <title>Sweet as Sugar | Home</title>
+    <title>Sweet as Sugar | Menu Page</title>
 
     <!-- Favicons made by Favicon.io -->
     <link
@@ -39,12 +39,12 @@
     <!-- Custom CSS. Always below Bootstrapso it can oerride it -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-
-  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
-  <body class="d-flex flex-column min-vh-100">
+  <body>
     <!-- Navigation -->
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container"> <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
+      <div class="container">
+        <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
         <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
@@ -58,35 +58,48 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto"> <!--ms-auto moves the option to the right-->
-            <a class="nav-link active" aria-current="page" href="index.html">Our Home</a>
-            <a class="nav-link" href="menu.html">Our Menu</a>
+          <div class="navbar-nav ms-auto">
+            <!--ms-auto moves the option to the right-->
+            <a class="nav-link" href="index.html">Our Home</a>
+            <a class="nav-link active" aria-current="page" href="menu.html"
+              >Our Menu</a
+            >
             <a class="nav-link" href="cakes.html">Our Specialty Cakes</a>
             <a class="nav-link" href="#">Contact Us</a>
-            
           </div>
         </div>
       </div>
     </nav>
-
     <!-- Header with carousel -->
     <header class="container">
       <div class="row">
-        <div class="col-12 col-xl-6">Sweet as Sugar intro text section</div>
+        <div class="col-12 col-xl-6">Sweet as Sugar Menu description</div>
         <div class="col-12 col-xl-6">Carousel</div>
       </div>
     </header>
 
     <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
-      <!-- Services section -->
+      <!-- Menu section -->
+
       <section class="container">
         <div class="row">
-          <div class="col-12">Services section heading</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
+          <div class="col-12">Menu section heading</div>
+          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
+          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
+          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
+          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
+        </div>
+      </section>
+
+      <!-- Cakes section -->
+      <section class="container">
+        <div class="row">
+          <div class="col-12">Cake section heading</div>
+          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
+          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
+          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
+          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
         </div>
       </section>
     </main>
