@@ -28,6 +28,30 @@ h3 {
     color: var(--highlight-color);
 }
 
+body {
+    background-image: url("/assets/images/sprinkles-background.jpg")
+}
+
+/* Navigation */
+#navbar {
+    background-color: var(--secondary-color);
+}
+
+
+.nav-link.active {
+    color: var(--highlight-color) !important /* used important to override bootstrap*/
+}
+
+.nav-link:hover {
+    color: var(--primary-color)
+}
+
+/* main section */
+/* #services{
+    background-color: white;
+} */
+
+
 /* Grid Visualisation to test the layout of the page*/
 
 .container,

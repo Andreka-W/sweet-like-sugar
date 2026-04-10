@@ -43,9 +43,9 @@
   <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar" class="navbar navbar-expand-lg"> <!--create navbar id to target to directly in CSS. Removed bg-body-tertiary as it affects navbar styling-->
       <div class="container"> <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Stay Sweet!</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -58,7 +58,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto"> <!--ms-auto moves the option to the right-->
+          <div class="navbar-nav ms-auto"> <!--ms-auto moves the option to the right.-->
             <a class="nav-link active" aria-current="page" href="index.html">Our Home</a>
             <a class="nav-link" href="menu.html">Our Menu</a>
             <a class="nav-link" href="cakes.html">Our Specialty Cakes</a>
@@ -80,7 +80,7 @@
     <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
       <!-- Services section -->
-      <section class="container">
+      <section id="services" class="container">
         <div class="row">
           <div class="col-12">Services section heading</div>
           <div class="col-12 col-md-6 col-xl-3">Services card</div>
