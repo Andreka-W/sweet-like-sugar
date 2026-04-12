@@ -32,6 +32,21 @@ body {
     background-image: url("/assets/images/sprinkles-background.jpg")
 }
 
+
+/* buttons */
+
+.default-btn {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.default-btn:hover {
+    border: 2px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);
+}
+
 /* Navigation */
 #navbar {
     background-color: var(--secondary-color);
@@ -47,18 +62,38 @@ body {
 }
 
 /* main section */
-/* #services{
-    background-color: white;
-} */
 
+/* Header */
+
+.intro {
+    background-color: var(--highlight-color-light);
+    border-radius: 50px;
+}
 .header-images {
     background-color: var(--secondary-color);
-    
+
 
 }
 .header-images, img {
     border-radius: 50px; 
 
+}
+
+/* Food and drink */
+
+.card-header {
+    color: var(--primary-color) !important;
+}
+
+.card {
+    margin-top: 2rem;
+    border-radius: 50px;
+
+}
+
+/* cakes */
+#cake, img {
+    height:270px;
 }
 
 
@@ -81,5 +116,21 @@ body {
     
     .header-images, img {
         float: left;
+    }
+}
+
+.card {
+    height: 300px;
+}
+/* For screens 1440px and larger (big desktops) */
+@media screen and (min-width:1440px){
+    .header-images, img {
+        display: flex;
+        justify-content: center;
+        margin: 0rem, 1rem;
+    }
+
+    .text-center.my-4 {
+        margin: auto;
     }
 }

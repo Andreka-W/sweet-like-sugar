@@ -42,7 +42,7 @@
   <body>
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar" class="navbar navbar-expand-lg">
       <div class="container">
         <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
         <a class="navbar-brand" href="#">Navbar</a>
@@ -61,10 +61,10 @@
           <div class="navbar-nav ms-auto">
             <!--ms-auto moves the option to the right-->
             <a class="nav-link" href="index.html">Our Home</a>
-            <a class="nav-link" href="menu.html"
-              >Our Menu</a
+            <a class="nav-link" href="menu.html">Our Menu</a>
+            <a class="nav-link active" aria-current="page" href="cakes.html"
+              >Our Specialty Cakes</a
             >
-            <a class="nav-link active" aria-current="page" href="cakes.html">Our Specialty Cakes</a>
             <a class="nav-link" href="#">Contact Us</a>
           </div>
         </div>
@@ -73,22 +73,149 @@
     <!-- Header with carousel -->
     <header class="container">
       <div class="row">
-        <div class="col-12 col-xl-6">Sweet as Sugar Speciality Cakes description</div>
-        <div class="col-12 col-xl-6">Carousel</div>
+        <div class="col-12 col-lg-6 text-center">
+          <h1 class="display-3">Our Special Cakes</h1>
+          <p class="lead text-center">
+            Have a birthday coming up? An Anniversary? Or maybe you just like
+            cake! Which our delicious selction of 8" or 10" round cake, we are
+            sure you can find just what you're looking for.
+          </p>
+          <a href="#" class="btn btn-primary default-btn mb-4 ">Order Here!</a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/biscoff-cheesecake.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/oreo-cheesecake.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/fudge-cake.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/lemon-cake.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/red-velvet-cake.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
     </header>
 
     <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
-
       <!-- cake list section -->
-      <section class="container">
+      <section id="cake" class="container">
         <div class="row">
-          <div class="col-12">cake heading</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake and description card</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake and description card</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake and description card</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake and description card</div>
+          <div class="col-12 sub-heading-color display-6 text-center">
+            The Selection
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-6">Biscoff Cheesecake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Baked cheesecake with biscoff biscuit base and cream cheese
+                  topping made with biscoff spread <br />
+                  <strong>Price</strong> £12 for 8", £16 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-6">Oreo Cheesecake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Baked cheesecake with oreo biscuit base and cream cheese
+                  topping made with oreo cream and topped with oreo biscuits <br />
+                  <strong>Price</strong> £12 for 8", £16 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-6">Chocolate Fudge Cake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Moist chocolate cake sandwiched with chocolate buttercream and topped with chocolate fudge  <br />
+                  <strong>Price</strong> £16 for 8", £20 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-6">Lemon Cake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Light lemon sponge soaked in tart lemon syrup topped with a lemon flavoured glaze <br />
+                  <strong>Price</strong> £14 for 8", £18 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-6">Red Velvet Cake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Red velvet cake sanwiched and topped with cream cheese icing <br />
+                  <strong>Price</strong> £16 for 8", £22 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

@@ -42,7 +42,7 @@
   <body>
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar" class="navbar navbar-expand-lg">
       <div class="container">
         <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
         <a class="navbar-brand" href="#">Navbar</a>
@@ -70,11 +70,16 @@
         </div>
       </div>
     </nav>
-    <!-- Header with carousel -->
+    <!-- Header -->
     <header class="container">
       <div class="row">
-        <div class="col-12 col-xl-6">Sweet as Sugar Menu description</div>
-        <div class="col-12 col-xl-6">Carousel</div>
+        <div class="col-12 intro text-center">
+          <p class="lead display-6 sub-heading-color">Our Menu</p>
+          <p class="my-4">
+            Here at Sweet as Sugar, we offer a menu that's almost as sweet as
+            you! Come look
+          </p>
+        </div>
       </div>
     </header>
 
@@ -82,24 +87,153 @@
     <main>
       <!-- Menu section -->
 
-      <section class="container">
+      <section id="drinks" class="container menu">
         <div class="row">
-          <div class="col-12">Menu section heading</div>
-          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
-          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
-          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
-          <div class="col-12 col-md-6 col-xl-3">Menu item card</div>
+          <div class="col-12">
+            <p class="lead display-6 sub-heading-color text-center">
+              Our Drinks
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4">Cola</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      Delicious ice-cold cola with optional ice and a lemon
+                      wedge
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £2.50</div>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4">Latte</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      Rich espresso serve with milk and a shot of vanilla syrup.
+                      Ask in store for milk aternatives!
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £3.00</div>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4">Mocha</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      Indulgent hot chocolate witha shot of our espresso. Can
+                      also be served cold! Ask in store for milk alternatives.
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £3.00</div>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4">Strawberry Lemonade</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      made with homemade lemonade and freshly pressed strawberry puree, served with ice
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £3.00</div>
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- Cakes section -->
-      <section class="container">
+      <!-- Food section -->
+      <section id="food" class="container menu">
         <div class="row">
-          <div class="col-12">Cake section heading</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
-          <div class="col-12 col-md-6 col-xl-3">Cake card</div>
+          <div class="col-12">
+            <p class="lead display-6 sub-heading-color text-center">
+              Our Food
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4 text-end">Grilled Cheese Sandwich</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      Made with either white or wholemeal bread and served with
+                      an optional side of tomato soup
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £3.50</div>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4 text-end">Lasgana</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      Thick layers of pasta paired with our house special
+                      marinara sauce, seasoned ground beef and bechamel. You
+                      won't find any better!
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £4.50</div>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-4 text-end">Pancakes</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      Super fluffy buttermilk pancakes, served with sweet
+                      whipped cream, maple syrup and optional fruits
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £4.00</div>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <div class="card-header display-5 text-end">Thai Green Curry</div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>
+                      With chicken breast, peppers, mangetout and baby sweetcorn. Served with steamed jasmine rice
+                    </p>
+                  </blockquote>
+                  <div class="card-footer"> Price £5.00</div>
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
