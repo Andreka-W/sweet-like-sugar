@@ -42,7 +42,7 @@
   <body>
     <!-- Navigation -->
 
-    <nav id="navbar" class="navbar navbar-expand-lg">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
         <a class="navbar-brand" href="#">Navbar</a>
@@ -65,7 +65,7 @@
               >Our Menu</a
             >
             <a class="nav-link" href="cakes.html">Our Specialty Cakes</a>
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="index.html#contact">Contact Us</a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
       <section id="drinks" class="container menu">
         <div class="row">
           <div class="col-12">
-            <p class="lead display-6 sub-heading-color text-center">
+            <p class="lead display-6 sub-heading-color text-center mt-3">
               Our Drinks
             </p>
           </div>
@@ -106,7 +106,7 @@
                       wedge
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £2.50</div>
+                  <div class="card-footer">Price £2.50</div>
                 </figure>
               </div>
             </div>
@@ -122,7 +122,7 @@
                       Ask in store for milk aternatives!
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £3.00</div>
+                  <div class="card-footer">Price £3.00</div>
                 </figure>
               </div>
             </div>
@@ -138,7 +138,7 @@
                       also be served cold! Ask in store for milk alternatives.
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £3.00</div>
+                  <div class="card-footer">Price £3.00</div>
                 </figure>
               </div>
             </div>
@@ -150,10 +150,11 @@
                 <figure>
                   <blockquote class="blockquote">
                     <p>
-                      made with homemade lemonade and freshly pressed strawberry puree, served with ice
+                      made with homemade lemonade and freshly pressed strawberry
+                      puree, served with ice
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £3.00</div>
+                  <div class="card-footer">Price £3.00</div>
                 </figure>
               </div>
             </div>
@@ -162,16 +163,18 @@
       </section>
 
       <!-- Food section -->
-      <section id="food" class="container menu">
+      <section id="food" class="container menu mb-3">
         <div class="row">
           <div class="col-12">
-            <p class="lead display-6 sub-heading-color text-center">
+            <p class="lead display-6 sub-heading-color text-center mt-3">
               Our Food
             </p>
           </div>
           <div class="col-12 col-md-6 col-xl-3">
             <div class="card">
-              <div class="card-header display-4 text-end">Grilled Cheese Sandwich</div>
+              <div class="card-header display-4 text-end">
+                Grilled Cheese Sandwich
+              </div>
               <div class="card-body">
                 <figure>
                   <blockquote class="blockquote">
@@ -180,7 +183,7 @@
                       an optional side of tomato soup
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £3.50</div>
+                  <div class="card-footer">Price £3.50</div>
                 </figure>
               </div>
             </div>
@@ -198,7 +201,7 @@
                       won't find any better!
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £4.50</div>
+                  <div class="card-footer">Price £4.50</div>
                 </figure>
               </div>
             </div>
@@ -214,7 +217,7 @@
                       whipped cream, maple syrup and optional fruits
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £4.00</div>
+                  <div class="card-footer">Price £4.00</div>
                 </figure>
               </div>
             </div>
@@ -226,10 +229,11 @@
                 <figure>
                   <blockquote class="blockquote">
                     <p>
-                      With chicken breast, peppers, mangetout and baby sweetcorn. Served with steamed jasmine rice
+                      With chicken breast, peppers, mangetout and baby
+                      sweetcorn. Served with steamed jasmine rice
                     </p>
                   </blockquote>
-                  <div class="card-footer"> Price £5.00</div>
+                  <div class="card-footer">Price £5.00</div>
                 </figure>
               </div>
             </div>
@@ -240,16 +244,89 @@
 
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
-    <footer class="mt-auto">
-      <div class="container">
+    <footer id="contact" class="mt-auto">
+      <div class="container section">
         <div class="row justify-content-center">
-          <div class="col-12">Contact section heading</div>
+          <div class="col-12 text-center">
+            <h2 class="display-6 sub-heading-color">
+              Don't be shy, contact us!
+            </h2>
+          </div>
           <!-- Contact info -->
           <div class="col-12 col-md-6 col-xl-4">
-            Contact info & social links
+            <h3 class="sub-heading-color">Our contact information</h3>
+            <address>
+              <strong
+                ><i class="fa-solid fa-location-dot"></i> Sweet as Sugar
+                Café</strong
+              ><br />
+              59 Sweetener Street<br />
+              123 ABC
+            </address>
+            <p>
+              <i class="fa-solid fa-phone"></i> 0123 456 7890<br />
+              <i class="fa-regular fa-paper-plane"></i> contact@sugar-cafe.com
+            </p>
+            <div class="social mt-4">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                href="https://www.x.com"
+                target="_blank"
+                aria-label="Visit our X feed (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
           </div>
           <!-- Opening times -->
-          <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="sub-heading-color text-center">Our opening times</h3>
+            <table class="table table-striped table-hover ">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Open</th>
+                  <th scope="col">Close</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mon to Thurs</th>
+                  <td scope="row">8am</td>
+                  <td scope="row">8pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fri</th>
+                  <td>8am</td>
+                  <td>10pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sat</th>
+                  <td>9am</td>
+                  <td>9pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sun</th>
+                  <td>11am</td>
+                  <td>7pm</td>
+                </tr>
+              </tbody>
+            </table>
+            >
+          </div>
         </div>
       </div>
     </footer>

@@ -1,13 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Sweet as Sugar café as the perfect to sit down, relax and enjoy the loveliest tea and coffee made by the loveliest staff."
+      content="You have successfully reserved your item."
     />
-    <title>Sweet as Sugar | Home</title>
+    <title>Sweet as Sugar | Success Page</title>
 
     <!-- Favicons made by Favicon.io -->
     <link
@@ -40,14 +40,13 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
-  <body class="d-flex flex-column min-vh-100">
+<body>
+    
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
-      <!--create navbar id to target to directly in CSS. Removed bg-body-tertiary as it affects navbar styling-->
+     <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
-        <a class="navbar-brand" href="#">Stay Sweet!</a>
+        <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -61,79 +60,79 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <!--ms-auto moves the option to the right.-->
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Our Home</a
-            >
+            <!--ms-auto moves the option to the right-->
+            <a class="nav-link" href="index.html">Our Home</a>
             <a class="nav-link" href="menu.html">Our Menu</a>
-            <a class="nav-link" href="cakes.html">Our Specialty Cakes</a>
-            <a class="nav-link" href="#contact">Contact Us</a>
+            <a class="nav-link active" aria-current="page" href="cakes.html"
+              >Our Specialty Cakes</a
+            >
+            <a class="nav-link" href="index.html#contact">Contact Us</a>
           </div>
         </div>
       </div>
     </nav>
-
-    <!-- Header with images -->
-    <header id="header" class="container">
-      <div class="row">
-        <div class="col-12 intro text-center mt-3">
-          <h1 class="display-3">Sweet as Sugar Café</h1>
-          <p class="lead display-6 sub-heading-color">
-            Well aren't you the sweetest thing?
-          </p>
-          <p class="my-4">
-            Hi! Welcome to Sweet as Sugar Café, a small family-owned business
-            thats specialises in sweet treats and amazing drinks and our amazing
-            whole cakes for any occasion!
-          </p>
-        </div>
-        <div class="header-images container">
-          <div class="text-center my-4">
-            <img src="assets/images/cafe-kiosk.jpg" height="200" width="300" />
-          </div>
-          <div class="text-center my-4">
-            <img
-              src="assets/images/cafe-server.avif"
-              height="200"
-              width="300"
-            />
-          </div>
-          <div class="text-center my-4">
-            <img
-              src="assets/images/drinks-and-cake.jpeg"
-              height="200"
-              width="300"
-            />
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
+    
     <main>
-      <!-- Services section -->
-      <section id="services" class="container">
+      <!-- cake list section -->
+      <section id="cake" class="container cake">
         <div class="row">
-          <div class="col-12">Services section heading</div>
+          <div class="col-12 sub-heading-color display-6 text-center mt-4">
+            Our Selection
+          </div>
           <div class="col-12 col-md-6 col-xl-3">
             <div class="card mb-3">
+              <div class="card-header display-6">Biscoff Cheesecake</div>
               <div class="card-body">
-                <h5 class="card-title sub-heading-color">Our Menu</h5>
                 <p class="card-text">
-                  Our array of food and drinks has been carefully and lovingly
-                  crafted by us for our amazing customers
+                  Baked cheesecake with biscoff biscuit base and cream cheese
+                  topping made with biscoff spread <br />
+                  <strong>Price</strong> £12 for 8", £16 for 10"
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-3">
-            <div class="card text-end mb-3">
+            <div class="card mb-3 ">
+              <div class="card-header display-6">Oreo Cheesecake</div>
               <div class="card-body">
-                <h5 class="card-title sub-heading-color">Our Cakes</h5>
                 <p class="card-text">
-                  Our cakes are made to order for you to share and enjoy
+                  Baked cheesecake with oreo biscuit base and cream cheese
+                  topping made with oreo cream and topped with oreo biscuits <br />
+                  <strong>Price</strong> £12 for 8", £16 for 10"
                 </p>
-                <a href="#" class="btn default-btn">Order Here!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card mb-3">
+              <div class="card-header display-6">Chocolate Fudge Cake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Moist chocolate cake sandwiched with chocolate buttercream and topped with chocolate fudge  <br />
+                  <strong>Price</strong> £16 for 8", £20 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card mb-3">
+              <div class="card-header display-6">Lemon Cake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Light lemon sponge soaked in tart lemon syrup topped with a lemon flavoured glaze <br />
+                  <strong>Price</strong> £14 for 8", £18 for 10"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card mb-3">
+              <div class="card-header display-6">Red Velvet Cake</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Red velvet cake sanwiched and topped with cream cheese icing <br />
+                  <strong>Price</strong> £16 for 8", £22 for 10"
+                </p>
               </div>
             </div>
           </div>
@@ -141,7 +140,8 @@
       </section>
     </main>
 
-    <!-- Footer / contact section -->
+
+     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
       <div class="container section">
@@ -229,18 +229,5 @@
         </div>
       </div>
     </footer>
-
-    <!-- JavaScript Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Font Awesome kit -->
-    <script
-      src="https://kit.fontawesome.com/c42d14fba5.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
 </html>

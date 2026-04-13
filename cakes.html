@@ -39,10 +39,12 @@
     <!-- Custom CSS. Always below Bootstrapso it can oerride it -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
+
     <!-- Navigation -->
 
-    <nav id="navbar" class="navbar navbar-expand-lg">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
         <a class="navbar-brand" href="#">Navbar</a>
@@ -65,7 +67,7 @@
             <a class="nav-link active" aria-current="page" href="cakes.html"
               >Our Specialty Cakes</a
             >
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="index.html#contact">Contact Us</a>
           </div>
         </div>
       </div>
@@ -80,10 +82,10 @@
             cake! Which our delicious selction of 8" or 10" round cake, we are
             sure you can find just what you're looking for.
           </p>
-          <a href="#" class="btn btn-primary default-btn mb-4 ">Order Here!</a>
+          <a href="#" class="btn btn-primary default-btn mb-4">Order Here!</a>
         </div>
 
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 mt-4">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -152,86 +154,202 @@
     </header>
 
     <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
+
     <main>
       <!-- cake list section -->
-      <section id="cake" class="container">
-        <div class="row">
-          <div class="col-12 sub-heading-color display-6 text-center">
-            The Selection
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="card">
-              <div class="card-header display-6">Biscoff Cheesecake</div>
-              <div class="card-body">
-                <p class="card-text">
-                  Baked cheesecake with biscoff biscuit base and cream cheese
-                  topping made with biscoff spread <br />
-                  <strong>Price</strong> £12 for 8", £16 for 10"
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="card">
-              <div class="card-header display-6">Oreo Cheesecake</div>
-              <div class="card-body">
-                <p class="card-text">
-                  Baked cheesecake with oreo biscuit base and cream cheese
-                  topping made with oreo cream and topped with oreo biscuits <br />
-                  <strong>Price</strong> £12 for 8", £16 for 10"
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="card">
-              <div class="card-header display-6">Chocolate Fudge Cake</div>
-              <div class="card-body">
-                <p class="card-text">
-                  Moist chocolate cake sandwiched with chocolate buttercream and topped with chocolate fudge  <br />
-                  <strong>Price</strong> £16 for 8", £20 for 10"
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="card">
-              <div class="card-header display-6">Lemon Cake</div>
-              <div class="card-body">
-                <p class="card-text">
-                  Light lemon sponge soaked in tart lemon syrup topped with a lemon flavoured glaze <br />
-                  <strong>Price</strong> £14 for 8", £18 for 10"
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-xl-3">
-            <div class="card">
-              <div class="card-header display-6">Red Velvet Cake</div>
-              <div class="card-body">
-                <p class="card-text">
-                  Red velvet cake sanwiched and topped with cream cheese icing <br />
-                  <strong>Price</strong> £16 for 8", £22 for 10"
-                </p>
-              </div>
+       <section id="special" class="container">
+      <div class="row">
+        <div class="col-12 sub-heading-color display-6 text-center mt-4">
+          Our Selection
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3">
+            <div class="card-header display-6">Biscoff Cheesecake</div>
+            <div class="card-body">
+              <p class="card-text">
+                Baked cheesecake with biscoff biscuit base and cream cheese
+                topping made with biscoff spread <br />
+                <strong>Price</strong> £12 for 8", £16 for 10"
+              </p>
             </div>
           </div>
         </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3">
+            <div class="card-header display-6">Oreo Cheesecake</div>
+            <div class="card-body">
+              <p class="card-text">
+                Baked cheesecake with oreo biscuit base and cream cheese topping
+                made with oreo cream and topped with oreo biscuits <br />
+                <strong>Price</strong> £12 for 8", £16 for 10"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3">
+            <div class="card-header display-6">Chocolate Fudge Cake</div>
+            <div class="card-body">
+              <p class="card-text">
+                Moist chocolate cake sandwiched with chocolate buttercream and
+                topped with chocolate fudge <br />
+                <strong>Price</strong> £16 for 8", £20 for 10"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3">
+            <div class="card-header display-6">Lemon Cake</div>
+            <div class="card-body">
+              <p class="card-text">
+                Light lemon sponge soaked in tart lemon syrup topped with a
+                lemon flavoured glaze <br />
+                <strong>Price</strong> £14 for 8", £18 for 10"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card mb-3">
+            <div class="card-header display-6">Red Velvet Cake</div>
+            <div class="card-body">
+              <p class="card-text">
+                Red velvet cake sanwiched and topped with cream cheese icing
+                <br />
+                <strong>Price</strong> £16 for 8", £22 for 10"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       </section>
+
+      <!-- Booking inquiry form section -->
+    <section id="booking-form" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <h2>Booking inquiry</h2>
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name">
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email">
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone">
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="event-type" class="form-label">Event type</label>
+                            <select id="event-type" class="form-select">
+                                <option selected>Select</option>
+                                <option value="regular-play">Reserve a table</option>
+                                <option value="dnd">Dungeons & Dragons</option>
+                                <option value="retro-night">Retro Game Night</option>
+                                <option value="tournament">Tournament</option>
+                                <option value="kids-party">Kids party</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
     </main>
 
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
-    <footer class="mt-auto">
-      <div class="container">
+    <footer id="contact" class="mt-auto">
+      <div class="container section">
         <div class="row justify-content-center">
-          <div class="col-12">Contact section heading</div>
+          <div class="col-12 text-center">
+            <h2 class="display-6 sub-heading-color">
+              Don't be shy, contact us!
+            </h2>
+          </div>
           <!-- Contact info -->
           <div class="col-12 col-md-6 col-xl-4">
-            Contact info & social links
+            <h3 class="sub-heading-color">Our contact information</h3>
+            <address>
+              <strong
+                ><i class="fa-solid fa-location-dot"></i> Sweet as Sugar
+                Café</strong
+              ><br />
+              59 Sweetener Street<br />
+              123 ABC
+            </address>
+            <p>
+              <i class="fa-solid fa-phone"></i> 0123 456 7890<br />
+              <i class="fa-regular fa-paper-plane"></i> contact@sugar-cafe.com
+            </p>
+            <div class="social mt-4">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                href="https://www.x.com"
+                target="_blank"
+                aria-label="Visit our X feed (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
           </div>
           <!-- Opening times -->
-          <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="sub-heading-color text-center">Our opening times</h3>
+            <table class="table table-striped table-hover ">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Open</th>
+                  <th scope="col">Close</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mon to Thurs</th>
+                  <td scope="row">8am</td>
+                  <td scope="row">8pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fri</th>
+                  <td>8am</td>
+                  <td>10pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sat</th>
+                  <td>9am</td>
+                  <td>9pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sun</th>
+                  <td>11am</td>
+                  <td>7pm</td>
+                </tr>
+              </tbody>
+            </table>
+            >
+          </div>
         </div>
       </div>
     </footer>
