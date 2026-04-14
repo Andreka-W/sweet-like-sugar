@@ -64,6 +64,11 @@ body {
 
 /* Header */
 
+#cake-header .text-center {
+    background-color: var(--highlight-color-light);
+    border-radius: 50px;
+}
+
 .intro {
   background-color: var(--highlight-color-light);
   border-radius: 50px;
@@ -100,9 +105,21 @@ img {
   height: 270px;
 }
 
+#special .card {
+    height: 190px;
+}
+
+#special .row {
+    padding-top: 40px;
+}
+
 /* reservation form */
-#reservation-form {
-    background-color: var(--highlight-color-light);
+#reservation-form form {
+    background-color: var(--secondary-color);
+}
+
+#reservation-form .row {
+    padding-top: 70px;
 }
 
 /* Footer */
@@ -150,12 +167,26 @@ img {
   .header-images,
   img {
     float: left;
+    display: flex;
+    justify-content: center;
+    margin: 0rem, 1rem;
   }
-}
 
-.card {
+  .text-center.my-4 {
+    margin: auto;
+  }
+
+  .card {
   height: 300px;
 }
+
+#special .card {
+    height: 235px;
+}
+
+}
+
+
 /* For screens 1440px and larger (big desktops) */
 @media screen and (min-width: 1440px) {
   .header-images,
@@ -168,4 +199,17 @@ img {
   .text-center.my-4 {
     margin: auto;
   }
+
+  #special .card {
+    height: 270px;
+}
+
+#drinks .card {
+    height: 420px;
+}
+
+#food .card {
+    height: 420px;
+}
+
 }

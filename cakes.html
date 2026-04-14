@@ -46,7 +46,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <!--Changed container fluid to container so the navbar has the same margin as the rest of the page-->
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Stay Sweet!</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -72,8 +72,8 @@
       </div>
     </nav>
     <!-- Header with carousel -->
-    <header class="container">
-      <div class="row">
+    <header id="cake-header" class="container">
+      <div class="row mt-3">
         <div class="col-12 col-lg-6 text-center">
           <h1 class="display-3">Our Special Cakes</h1>
           <p class="lead text-center">
@@ -81,7 +81,9 @@
             cake! Which our delicious selction of 8" or 10" round cake, we are
             sure you can find just what you're looking for.
           </p>
-          <a href="#" class="btn btn-primary default-btn mb-4">Order Here!</a>
+          <a href="#reservation-form" class="btn btn-primary default-btn mb-4"
+            >Order Here!</a
+          >
         </div>
 
         <div class="col-12 col-lg-6 mt-4">
@@ -157,7 +159,7 @@
     <main>
       <!-- cake list section -->
       <section id="special" class="container">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class="col-12 sub-heading-color display-6 text-center mt-4">
             Our Selection
           </div>
@@ -229,9 +231,11 @@
       <section id="reservation-form" class="container section">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8">
-            <h2 class="display-3 text-center">Reservation Form</h2>
+            <h2 class="display-3 text-center">
+              <strong>Reservation Form</strong>
+            </h2>
           </div>
-          <form>
+          <form action="success.html" method="GET">
             <div class="row">
               <div class="col-12 col-lg-6 mb-3">
                 <label for="name" class="form-label"> Your Name </label>
@@ -246,8 +250,8 @@
                 <input class="form-control" id="phone" type="number" required />
               </div>
               <div class="col-12 col-lg-6 mb-3">
-                <label for="event-type" class="form-label"
-                  > Your Choice of Cake</label
+                <label for="event-type" class="form-label">
+                  Your Choice of Cake</label
                 >
                 <select
                   id="event-type"
@@ -257,11 +261,16 @@
                 >
                   <option value="" selected>Select</option>
                   <!-- Vlaue = "" so th wbsite does not think select is a chosen option-->
-                  <option value="biscoff">Biscoff Cheesecake</option>
-                  <option value="oreo">Oreo Cheesecake</option>
-                  <option value="chocolate">Chocolate Fudge Cake</option>
-                  <option value="lemon">Lemon Cake</option>
-                  <option value="velvet">Red Velvet Cake</option>
+                  <option value="biscoff">Biscoff Cheesecake - 8"</option>
+                  <option value="biscoff">Biscoff Cheesecake - 10"</option>
+                  <option value="oreo">Oreo Cheesecake - 8"</option>
+                  <option value="oreo">Oreo Cheesecake - 10"</option>
+                  <option value="chocolate">Chocolate Fudge Cake - 8"</option>
+                  <option value="chocolate">Chocolate Fudge Cake - 10"</option>
+                  <option value="lemon">Lemon Cake - 8"</option>
+                  <option value="lemon">Lemon Cake - 10"</option>
+                  <option value="velvet">Red Velvet Cake - 8"</option>
+                  <option value="velvet">Red Velvet Cake - 10"</option>
                 </select>
               </div>
               <div class="col-12 mb-3">
@@ -279,7 +288,7 @@
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
-      <div class="container section">
+      <div class="container section mt-3">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <h2 class="display-6 sub-heading-color">
@@ -287,7 +296,7 @@
             </h2>
           </div>
           <!-- Contact info -->
-          <div class="col-12 col-md-6 col-xl-4">
+          <div class="col-12 col-md-6 col-xl-4 mt-3">
             <h3 class="sub-heading-color">Our contact information</h3>
             <address>
               <strong
